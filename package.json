@@ -34,8 +34,6 @@
     "start": "react-scripts start",
     "lint": "./node_modules/.bin/eslint ./ --fix",
     "build": "react-scripts build",
-    "pagekite": "pagekite.py 3000 kellybook.pagekite.me",
-    "now": "npm run-script build && cd ./build && now --public",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
